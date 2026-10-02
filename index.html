@@ -1,29 +1,36 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-
-  <title>CRM Недвижимость</title>
-
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="CRM Недвижимость">
-  <meta name="theme-color" content="#f9f8f4">
-
-  <link rel="apple-touch-icon" href="CRM_AGENT_icon.png">
-  <link rel="icon" type="image/png" href="CRM_AGENT_icon.png">
-
-  <meta http-equiv="refresh" content="0;url=https://script.google.com/macros/s/AKfycbxxlLJRydPWZkOlk5zEQCHAFmMqGiiC3ZSNDYvCYeEhDGDI3Cr2z2OZZIQyu2tt-wWL/exec?pli=1">
-
-  <script>
-    window.location.replace(
-      "https://script.google.com/macros/s/AKfycbxxlLJRydPWZkOlk5zEQCHAFmMqGiiC3ZSNDYvCYeEhDGDI3Cr2z2OZZIQyu2tt-wWL/exec?pli=1"
-    );
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CRM Недвижимость</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="CRM Недвижимость">
+<meta name="theme-color" content="#f9f8f4">
+<link rel="apple-touch-icon" sizes="512x512" href="./CRM_AGENT_icon.png">
+<link rel="icon" type="image/png" sizes="512x512" href="./CRM_AGENT_icon.png">
+<style>
+html,body{margin:0;min-height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f9f8f4;color:#111}
+main{min-height:100vh;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:32px 24px;text-align:center}
+img{width:120px;height:120px;border-radius:24px;margin-bottom:24px}
+h1{margin:0 0 10px;font-size:30px}
+p{margin:0 0 28px;max-width:360px;font-size:17px;line-height:1.4;color:#666}
+a{display:inline-block;padding:15px 24px;border-radius:14px;background:#111;color:#fff;text-decoration:none;font-size:18px;font-weight:600}
+</style>
 </head>
-
 <body>
-  <p>Открываем CRM…</p>
+<main>
+<img src="./CRM_AGENT_icon.png" alt="CRM Агент">
+<h1>CRM Недвижимость</h1>
+<p>Добавьте эту страницу на экран «Домой». После установки запускайте CRM с созданного значка.</p>
+<a href="https://script.google.com/macros/s/AKfycbxxlLJRydPWZkOlk5zEQCHAFmMqGiiC3ZSNDYvCYeEhDGDI3Cr2z2OZZIQyu2tt-wWL/exec?pli=1">Открыть CRM</a>
+</main>
+<script>
+(function(){
+  var standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  if (standalone) window.location.replace("https://script.google.com/macros/s/AKfycbxxlLJRydPWZkOlk5zEQCHAFmMqGiiC3ZSNDYvCYeEhDGDI3Cr2z2OZZIQyu2tt-wWL/exec?pli=1");
+})();
+</script>
 </body>
 </html>
